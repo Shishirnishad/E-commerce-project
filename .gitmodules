@@ -1,0 +1,3 @@
+[submodule "frontend/client-app"]
+	path = frontend/client-app
+	url = https://github.com/Shishirnishad/E-commerce-frontend.git

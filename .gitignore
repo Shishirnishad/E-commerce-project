@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+backend/serverapp/node_modules/
+frontend/client-app/node_modules/
+
+# environment files
+.env
+backend/serverapp/.env
+frontend/client-app/.env
+
+# build output
+frontend/client-app/build/
+
+# logs
+*.log
+server-log.txt
+client-log.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
