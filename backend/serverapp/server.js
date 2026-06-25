@@ -1,8 +1,12 @@
 const path = require("path");
-require("dotenv").config({ path: path.join(__dirname, ".env") });
+try {
+  require("dotenv").config({ path: path.join(__dirname, ".env") });
+} catch (_) {}
 
 const dns = require("dns");
-dns.setServers(["8.8.8.8", "8.8.4.4"]);
+try {
+  dns.setServers(["8.8.8.8", "8.8.4.4"]);
+} catch (_) {}
 
 const express = require("express");
 const cors = require("cors");
